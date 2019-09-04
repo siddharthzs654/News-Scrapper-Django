@@ -96,7 +96,7 @@
         {% for trend in news %}
         <div class="col-sm-12 col-md-6 col-lg-4 my-5">
             <div class="card" style=" min-height: 40rem">
-                <img src="{{ trend.image }}" class="card-img-top" alt="News-Image">
+                <img src="{{ trend.image }}" class="card-img-top" alt="News-Image" style="height: 15rem">
                 <div class="card-body">
                     <h5 class="card-title">{{trend.heading}}</h5>
                     <p class="card-text">{{ trend.content }}</p>
@@ -126,7 +126,7 @@
 {% for trend in news %}
 <div class="col my-5">
 <div class="card" style="width: 25rem; min-height: 40rem">
-<img src="{{ trend.image }}" class="card-img-top" alt="News-Image">
+<img src="{{ trend.image }}" class="card-img-top" alt="News-Image" style="height: 15rem">
 <div class="card-body">
     <h5 class="card-title">{{trend.heading}}</h5>
     <p class="card-text">{{ trend.content }}</p>
@@ -156,7 +156,7 @@
 {% for trend in news %}
 <div class="col my-5">
 <div class="card" style="width: 25rem; min-height: 40rem">
-<img src="{{ trend.image }}" class="card-img-top" alt="News-Image">
+<img src="{{ trend.image }}" class="card-img-top" alt="News-Image" style="height: 15rem">
 <div class="card-body">
     <h5 class="card-title">{{trend.heading}}</h5>
     <p class="card-text">{{ trend.content }}</p>
@@ -185,8 +185,8 @@
 <div class="row mx-auto">
 {% for trend in news %}
 <div class="col my-5">
-<div class="card" style="width: 25rem; min-height: 40rem">
-<img src="{{ trend.image }}" class="card-img-top" alt="News-Image">
+<div class="card" style="width: 25rem; min-height: 40rem" >
+<img src="{{ trend.image }}" class="card-img-top" alt="News-Image" style="height: 15rem">
 <div class="card-body">
     <h5 class="card-title">{{trend.heading}}</h5>
     <p class="card-text">{{ trend.content }}</p>
