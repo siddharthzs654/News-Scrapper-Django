@@ -22,7 +22,15 @@ pip install -r requirments.txt
 ```
 In case pip is not recognized as an internal or external command, you have to install pip in your system
 
+###  Installation And Running(Windows)
 
+* Clone the repository on local machine
+* open command prompt inside the folder containing News-Scrapper
+```
+ run pip install -r requirements.txt 
+ run python manage.py runserver
+```
+* Now, Go to 127.0.0.1 in your browser (Make sure you are connected to internet!)
 ## Built With
 
 * [Django] - The web framework used
